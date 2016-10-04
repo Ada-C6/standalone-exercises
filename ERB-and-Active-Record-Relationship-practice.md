@@ -1,22 +1,22 @@
 # Practice with Entity Relationships
 ## Setup
 We are setting up a gradebook for the Seattle Public Schools (not really, but bare with me).  
-The gradebook will have students, classes, assignments, teachers and marks.  
+The gradebook will have students, courses, assignments, teachers and marks.  
 
 For Students the database will need to keep track of:
 -  Student First & Last Names
 -  Student ID Numbers
 -  Student Grade Level
 
-Classes will have
--  A class name
--  The Teacher for the class
--  The students for the class
+Courses will have
+-  A course name
+-  The Teacher for the course
+-  The students for the course
 
 Assignments will have
 -  An Assignment name
 -  A due date
--  The class for which the assignment was given
+-  The course for which the assignment was given
 
 Teachers will have
 -  The teacher name
